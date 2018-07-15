@@ -1,6 +1,12 @@
 server:
   port: 3000
 
+pig:
+  auth:
+    clientId: pig
+    clientSecret: pig
+    scope: server  
+  
 # datasoure默认使用JDBC
 spring:
   datasource:
@@ -35,5 +41,3 @@ ignore:
     - /metrics/**
     - /loggers/**
     - /mobile/token
-
-
