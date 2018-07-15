@@ -1,11 +1,5 @@
 server:
   port: 3000
-
-pig:
-  auth:
-    clientId: dsmp
-    clientSecret: dsmp
-    scope: server  
 # datasoure默认使用JDBC
 spring:
   datasource:
