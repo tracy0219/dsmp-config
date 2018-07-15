@@ -1,7 +1,7 @@
 server:
   port: 3000
 
-dsmp:
+pig:
   auth:
     clientId: dsmp
     clientSecret: dsmp
